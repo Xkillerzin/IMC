@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ccc;
+}
+
+.container {
+  background-color: #aaa;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.form {
+  background-color: #e6e6e6;
+  margin: auto;
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 500px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 0;
+  width: 95%;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.resultado {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.tabela {
+  margin-top: 30px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  background-color: black;
+  color: white;
+  padding: 8px;
+  font-size: 0.9rem;
+}
+
+td:nth-child(2) {
+  background-color: #555;
+}
